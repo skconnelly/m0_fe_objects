@@ -25,11 +25,8 @@ console.log(Object.values(foods));
 // you created above:
 // // YOUR CODE HERE
 
-var keys = Object.keys(foods);
-console.log(keys);
-
-var secondFood = keys[1];
-console.log(secondFood);
+var a = Object.values(foods);
+console.log(a[1]);
 
 // Write code that adds a food to the foods object. 
 // Then, print the updated object:
@@ -58,22 +55,22 @@ var email = {
   year: 2023,
 };
 
-// Write code that logs your email object to the terminal.
+// // Write code that logs your email object to the terminal.
 console.log(email);
 
-// Write code that logs all of the 'keys' of the email object 
-// you created above:
-// YOUR CODE HERE
+// // Write code that logs all of the 'keys' of the email object 
+// // you created above:
+// // YOUR CODE HERE
 console.log(Object.keys(email));
 
-// Write code that logs all of the 'values' of the email object 
-// you created above:
-// YOUR CODE HERE
+// // Write code that logs all of the 'values' of the email object 
+// // you created above:
+// // YOUR CODE HERE
 console.log(Object.values(email));
 
-// -------------------
-// Part 3: Many Emails - CHALLENGE!
-// -------------------
+// // -------------------
+// // Part 3: Many Emails - CHALLENGE!
+// // -------------------
 
 // LONG EXAMPLE:
 // Now that we've learned about Objects AND Arrays, we can combine them.
@@ -84,9 +81,9 @@ console.log(Object.values(email));
 var posts = ["image at beach", "holiday party", "adorable puppy", "video of cute baby"];
 
 
-// // An Array of Objects is probably more realistic. Objects are a data type that's great
-// // for storing more complex data. Below, we can store multiple key-value pairs
-// // that relate to each individual Instagram post:
+// // // An Array of Objects is probably more realistic. Objects are a data type that's great
+// // // for storing more complex data. Below, we can store multiple key-value pairs
+// // // that relate to each individual Instagram post:
 
 
 posts = [
@@ -117,8 +114,8 @@ console.log(posts[0]);
 
 
 // // YOU DO: Create an array of at least 3 EMAIL Objects, using the same 
-// // key-value pairs you used in your email Object above.
-// // Then, print the email Array to the Terminal.
+// // // key-value pairs you used in your email Object above.
+// // // Then, print the email Array to the Terminal.
 
 emails = [
   {
